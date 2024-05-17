@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(img/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:  hsl(275, 100%, 97%);
+}
+
+.container{
+    padding: 25px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    height: 300%;
+    width: 29%;
+    margin: 15% 35%;
+    font-family:"Work Sans", sans-serif;
+    line-height: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+img{
+   margin-bottom: -11px;
+   height: 22px;
+   width: 22px;
+}
+
+.titulo{
+    margin: -30px 0 10px 35px;
+    color: hsl(292, 42%, 14%);
+}
+
+.perguntas p{
+    font-size: 12px;
+}
+
+/* TEXTAREA */
+.msg1, .msg2, .msg3, .msg4{
+    position: relative;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #B4B4B8;
+    color: #B4B4B8;
+    display: none;
+}
+
+.btn-plus1, .btn-plus2, .btn-plus3, .btn-plus4{
+    position: absolute;
+    margin: -25px 0 10px 328px;
+    background-color:  #A149FA;
+    height: 15px;
+    width: 15px;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.perguntas p:hover {
+    color: #A149FA;
+    cursor: pointer;
+}
